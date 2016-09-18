@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>拍拍云打印</title>
+
+    <meta name="viewport" content="width=600">
+
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/dropfile.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/easydropdown.css">
+
+
+    <style type="text/css">
+        #my-awesome-dropzone {
+
+            margin: 0 auto;
+            position: relative;
+
+        }
+
+        .dropzone {
+            min-height: 300px;
+            min-width: 300px;
+            background-color: white;
+
+        }
+
+        .format-image {
+            height: 152px;
+            width: 218px;
+            position: absolute;
+            background-image: url(../static/images/backgroundimage.png);
+            left: 50%;
+            margin-left: -110px;
+            top: 50%;
+            margin-top: -44px;
+        }
+
+    </style>
+</head>
+<body class="ltr">
+
+
+<div id="container">
+
+
+    <h1 class="content">拍拍云打印</h1>
+
+
+    <form action="/fileupload$" class="dropzone" id="my-awesome-dropzone">
+        <div class="format-image dz-message">
+
+        </div>
+    </form>
+
+
+    <div class="nav-wrapper">
+
+        <a class="nav prev" href="">提交订单</a>
+
+    </div>
+
+
+    <footer>
+
+    </footer>
+
+
+</div>
+<script src="../static/js/jquery-2.1.4.js"></script>
+<script src="../static/js/jquery.easydropdown.js"></script>
+<script src="../static/js/dropfile.js"></script>
+
+</body>
+</html>
